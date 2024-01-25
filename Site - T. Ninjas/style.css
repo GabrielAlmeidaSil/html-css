@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Oswald & display=swap');
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor0: #006400;
+    --cor1: #32CD32;
+    --cor2: #00FF00;
+    --cor3: #0A122A;
+    --cor4: #FBFAF8;
+    --fonte-padrao: 
+
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: 'Oswald';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));
+    text-align: center;
+    font-size: 2em;
+    min-height: 190px;
+}
+
+header > h1{
+    padding-top: 15px;
+    font-weight: normal;
+    text-shadow: 2px 1px 0px rgb(24, 24, 24);
+}
+
+header > p{
+    font-weight: normal;
+    text-shadow: 1px 1px 0px rgb(24, 24, 24);
+}
+
+nav{
+    padding: 10px;
+    text-shadow: 0px 0px 7px white;
+}
+
+nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: normal;
+    
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+main{
+    background-color: var(--cor4);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+}
+main > h1{
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+main > p{
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+main > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+main > p > a:hover{
+    text-decoration: underline;
+}
+
+main > p > a::after{
+    content: '🔗';
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.leo{
+    color: #0082C3;
+}
+
+.raf{
+    color: #EC3236;
+}
+
+.don{
+    color: #7082C0;
+}
+
+.mic{
+    color: #F9991E;
+}
+
+footer{
+    background-color: var(--cor3);
+    padding: 7px;
+    color: white;
+    text-align: center;
+}
