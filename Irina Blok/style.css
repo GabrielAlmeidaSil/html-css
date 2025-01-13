@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --cor01: #217547;
+    --cor02: #6AB78D;
+    --cor03: #34D578;
+    --cor04: #45F594;
+    --cor05: #8EF5BC;
+
+    --fonte-padrão: "Oswald", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrão);
+}
+
+body{
+    background-color: var(--cor05);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor03));
+    text-align: center;
+    padding: 30px;
+    color: var(--cor01);
+}
+
+header > h1{
+    font-weight: normal;
+    text-shadow: 1px 1px 3px #00000056;
+    font-size: 2.5em;
+}
+
+header > p{
+    font-size: 1.3em;
+    padding-top: 8px;
+}
+
+nav{
+    background-color: var(--cor03);
+    box-shadow: 1px 7px 6px #0000001e;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px;
+
+}
+
+nav > a:hover{
+    background-color: var(--cor04);
+    color: var(--cor01);
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+main{
+    padding: 30px;
+    margin: auto;
+    max-width: 800px;
+    background-color: var(--cor04);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 5px 7px #00000021;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.irinaimg{
+    box-shadow: 2px 2px 5px #00000071;
+}
+
+section > h1{
+    padding-bottom: 7px;
+    font-size: 1.6em;
+    color: var(--cor01);
+}
+
+section > h2{
+    padding: 4px;
+    color: var(--cor02);
+    background-image: linear-gradient(to right, var(--cor05), var(--cor04));
+    text-indent: 5px;
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+section > p{
+    text-align: justify;
+    text-indent: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+aside{
+    background-color: var(--cor05);
+    columns: 2;
+    list-style-position: inside;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 5px 7px #00000021;
+}
+
+section > h3{
+    background-color: var(--cor02);
+    padding: 6px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ol > li{
+   padding-bottom: 15px;
+}
+
+footer{
+    background-color: var(--cor02);
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 1.1em;
+    text-align: center;
+}
+

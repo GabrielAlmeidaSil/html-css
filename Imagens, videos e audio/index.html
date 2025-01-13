@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1><ins>Imagem dinamica</ins></h1>
+    <p>Tente abrir este site em vários dispostivos diferentes, ou simplesmente aumente ou diminue o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1><ins>Adicionando Áudio</ins></h1>
+
+    <audio preload="metadata" autoplay controls loop>
+    <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        
+    </audio>
+
+    <hr>
+
+    <h1>Inserindo videos localmente</h1>
+    <p>este video esta alocado no meu proprio servidor.</p>
+
+    <video controls width="500">
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <p>seu navegador não tem combatibilidade com reprodução de videos</p>
+    </video>
+
+    <hr>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=4MT7s_MjqMJcj0fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>
